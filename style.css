@@ -62,7 +62,82 @@ body {
 
 .tagline {
     font-family: 'Rubik', sans-serif;
-    color: rgb(255, 174, 174);
+    color: rgb(255, 151, 151);
     font-weight: 600;
     font-size: 1rem;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1300px;
+    flex-wrap: wrap;
+}
+
+.flex-container-small {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 500px;
+}
+
+.flex-item-left {
+    padding: 0;
+    float: left;
+
+}
+
+.flex-item-center {
+    padding: 0;
+    float:none;
+}
+
+.flex-item-right {
+    padding: 0;
+    float: right;
+}
+
+.flex-50 {
+    flex: 50%;
+}
+
+.flex-33 {
+    flex: 33.33%;
+    margin-bottom: 2rem;
+}
+
+.flex-30 {
+    flex: 30%;
+}
+
+.flex-25 {
+    flex: 25%
+}
+
+.flex-70 {
+    flex: 70%
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.flex-image {
+    width: 110%;
+    margin: 10px 0;
+}
+
+.flex-title {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(255, 151, 151);
+    font-weight: 600;
 }

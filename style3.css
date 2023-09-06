@@ -1,0 +1,38 @@
+
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the entire page */
+body {
+    background-color: rgb(253, 236, 236);
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header (h1) */
+h1 {
+    text-align: center;
+    background-color: rgb(255, 151, 151);;
+    color: #fff;
+    padding: 60px;
+}
+
+/* Style the contact information (paragraphs) */
+p {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Style the Twitter link (hyperlink) */
+a {
+    display: block;
+    text-align: left;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+/* Change link color on hover */

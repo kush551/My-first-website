@@ -141,3 +141,7 @@ body {
     color: rgb(255, 151, 151);
     font-weight: 600;
 }
+
+.bg-section {
+    background-color: rgba(255, 151, 151, 0.322);
+}
